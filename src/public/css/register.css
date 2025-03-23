@@ -1,0 +1,44 @@
+main{
+    background: #f7f7f7;
+}
+
+.register-content{
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 600px;
+}
+
+.register-heading{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+form{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-label--required{
+    margin-left: 5px;
+    padding: 0 4px;
+    background: #fc0808;
+    color: #fff;
+}
+
+.form-error{
+    height: 20px;
+    text-align: left;
+}
+
+.form-input--text input,
+.form-input--textarea textarea{
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #e6e4e3;
+    border-radius: 3px;
+}
