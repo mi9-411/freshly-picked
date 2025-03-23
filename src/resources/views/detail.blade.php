@@ -45,14 +45,14 @@
                 </div>
             </div>
         </div>
-        <div class="form-group">
+        <!--<div class="form-group">
             <div class="form-group-title">
                 <p class="form-label">季節</p>
             </div>
             <div class="form-group-content">
                 <div class="form-input-check">
                     @foreach ($seasons as $season)
-                    <label><input type="checkbox" name="season" value="{{ $season['id'] }}">{{ $season['name'] }}</label>
+                    <label><input type="checkbox" name="season" value=""></label>
                     @endforeach
                 </div>
                 <div class="form-error">
@@ -61,7 +61,7 @@
                     @enderror
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="form-group">
             <div class="form-group-title">
                 <p class="form-label">商品説明</p>
@@ -75,4 +75,3 @@
     </form>
 
 </div>
-@endsection

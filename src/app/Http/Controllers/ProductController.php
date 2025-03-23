@@ -45,8 +45,8 @@ class ProductController extends Controller
     public function detail($productld)
     {
         $product = Product::find($productld);
-        $seasons = Season::all();
-        return view('detail', compact('product', 'seasons'));
+        /*$seasons = Season::all();*/
+        return view('detail', compact('product'));
     }
 
 }
